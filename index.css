@@ -1,4 +1,37 @@
+body {
+  background-color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
 #drum-machine {
+  background-color: rebeccapurple;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 5rem auto;
+  padding: 2rem;
+  border-radius: 20px;
+}
+.botones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.drum-pad {
+  font-family: inherit;
+  color: red;
+  flex: 1 1 130px;
+  font-size: 4rem;
+  padding: 1rem;
+  aspect-ratio: 1;
+  border-radius: 10px;
+  border: none;
+  background-color: aliceblue;
+}
+
+#display {
+  margin-block-end: 2rem;
+  background-color: greenyellow;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+  min-height: 2.8rem;
 }
